@@ -27,3 +27,5 @@ Create an `iptable` rule that prevents talking directly to the AWS Metadata Serv
 ```
 
 https://blog.christophetd.fr/abusing-aws-metadata-service-using-ssrf-vulnerabilities/
+
+https://serverfault.com/questions/436086/how-to-prevent-firewall-calls-to-aws-ec2-instance-metadata-api
