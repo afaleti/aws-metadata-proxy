@@ -26,3 +26,4 @@ Create an `iptable` rule that prevents talking directly to the AWS Metadata Serv
 /sbin/iptables -t nat -A OUTPUT -m owner ! --uid-owner proxy_user -d 169.254.169.254 -p tcp -m tcp --dport 80 -j DNAT --to-destination 127.0.0.1:9090
 ```
 
+https://blog.christophetd.fr/abusing-aws-metadata-service-using-ssrf-vulnerabilities/
